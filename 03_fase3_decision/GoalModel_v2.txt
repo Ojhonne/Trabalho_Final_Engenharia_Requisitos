@@ -1,0 +1,822 @@
+{
+  "actors": [],
+  "orphans": [
+    {
+      "id": "5c07ab04-27a4-47e3-b333-3b295ee6c323",
+      "text": "Conclusão da coleta em alvos obrigatórios",
+      "type": "kaos.BehavioralGoal",
+      "x": 827.5910719397434,
+      "y": 116.91408300218916,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Achieve",
+        "Description": "Todos os alvos obrigatórios têm status explícito registrado no log (concluído, inacessível ou qualidade insuficiente)."
+      }
+    },
+    {
+      "id": "be9d9420-0c9a-4f16-9314-a3e5ba808063",
+      "text": "Missão iniciada com viabilidade energética",
+      "type": "kaos.BehavioralGoal",
+      "x": -294.1689197147942,
+      "y": 314.0956106118034,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Achieve",
+        "Description": "A missão é configurada e só começa se a carga cobre a missão estimada."
+      }
+    },
+    {
+      "id": "a21f0496-abe4-4c0c-aaad-6b575e4ef0a5",
+      "text": "Alvo obrigatório visitado com resultado explícito\t",
+      "type": "kaos.BehavioralGoal",
+      "x": 344.8423148331396,
+      "y": 314.27660886030264,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Achieve",
+        "Description": "Cada alvo termina com um dos três resultados válidos."
+      }
+    },
+    {
+      "id": "863859fb-05bf-43bb-b547-5400f22eb488",
+      "text": "Obrigatórios priorizados sobre os opcionais",
+      "type": "kaos.BehavioralGoal",
+      "x": 803.3049538928116,
+      "y": 330.246142416145,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Maintain",
+        "Description": "Ordem e prioridade dos alvos respeitadas."
+      }
+    },
+    {
+      "id": "8986017e-7e18-4479-86da-d51ffd2cdda5",
+      "text": "Segurança energética em campo",
+      "type": "kaos.BehavioralGoal",
+      "x": 1278.9743308602758,
+      "y": 339.73459769915826,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Maintain",
+        "Description": "A carga nunca chega a zero em campo."
+      }
+    },
+    {
+      "id": "78bc8336-e5e5-4e54-a8a4-3f9a2bfd5c8c",
+      "text": "Missão monitorável e passível de intervenção",
+      "type": "kaos.BehavioralGoal",
+      "x": 1903.5223819176106,
+      "y": 324.02863263660475,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Maintain",
+        "Description": "O Controlador acompanha e pode intervir."
+      }
+    },
+    {
+      "id": "5f14f674-ac90-485f-b2ec-8d5bc868cc62",
+      "text": "Robô",
+      "type": "kaos.Agent",
+      "x": -70.6924939418924,
+      "y": 540.8151635725277,
+      "customProperties": {}
+    },
+    {
+      "id": "59bea676-db7c-4f20-bfc9-f41c5debf672",
+      "text": "Drone",
+      "type": "kaos.EnvironmentAgent",
+      "x": -406.0008508547444,
+      "y": 538.5322126768328,
+      "customProperties": {}
+    },
+    {
+      "id": "e9693497-0127-43cc-822f-35e569ef554a",
+      "text": "Robô",
+      "type": "kaos.Agent",
+      "x": 220.4904023446415,
+      "y": 551.0827101010436,
+      "customProperties": {}
+    },
+    {
+      "id": "351cfb3f-c8db-4887-b6e9-216b4527ff70",
+      "text": "Robô",
+      "type": "kaos.Agent",
+      "x": 746.9718679579814,
+      "y": 558.4646251407671,
+      "customProperties": {}
+    },
+    {
+      "id": "1bb9b1d4-aa45-4884-a60a-90f6640889c7",
+      "text": "Robô",
+      "type": "kaos.Agent",
+      "x": 1228.2739938127572,
+      "y": 575.1795635359414,
+      "customProperties": {}
+    },
+    {
+      "id": "0e314bc2-8ede-4a14-996a-4a04675467ec",
+      "text": "Controlador",
+      "type": "kaos.EnvironmentAgent",
+      "x": 1464.1858247187906,
+      "y": 570.3530466555297,
+      "customProperties": {}
+    },
+    {
+      "id": "b2c530fe-2870-46af-b2e4-a7a75d4f198e",
+      "text": "Robô",
+      "type": "kaos.Agent",
+      "x": 1899.6728104696995,
+      "y": 571.8075280144246,
+      "customProperties": {}
+    },
+    {
+      "id": "a13abe59-5f78-4f88-a565-d4e0f7e305fa",
+      "text": "Lista de alvos cadastrada",
+      "type": "kaos.BehavioralGoal",
+      "x": -540.0189798957275,
+      "y": 421.92088693510834,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Achieve",
+        "Description": "Coordenadas, prioridade, ordem e tipo de dado informados."
+      }
+    },
+    {
+      "id": "2f867e1b-a5d9-44a8-996a-526f032c7d73",
+      "text": "Topologia do terreno recebida\t",
+      "type": "kaos.BehavioralGoal",
+      "x": -378.0609089151393,
+      "y": 422.0371840454799,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Achieve",
+        "Description": "O Drone transmite o mapa topológico."
+      }
+    },
+    {
+      "id": "4592a50e-b90c-40c5-9730-529c2c287d1f",
+      "text": "Critérios de qualidade configurados",
+      "type": "kaos.BehavioralGoal",
+      "x": -223.09809296061917,
+      "y": 424.1906652013313,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Achieve",
+        "Description": "Critérios usados para avaliar cada coleta."
+      }
+    },
+    {
+      "id": "183d4c22-7a8b-4ee2-b501-099a76db8998",
+      "text": "Bateria verificada antes do início",
+      "type": "kaos.BehavioralGoal",
+      "x": -53.46518844148606,
+      "y": 424.88370288962847,
+      "customProperties": {
+        "FormalSpec": "",
+        "Description": "Bateria verificada antes do início",
+        "Type": "Achieve"
+      }
+    },
+    {
+      "id": "6b50c00b-fd18-4f7b-b6e4-14124c4e6ddb",
+      "text": "Controlador",
+      "type": "kaos.EnvironmentAgent",
+      "x": -568,
+      "y": 540,
+      "customProperties": {}
+    },
+    {
+      "id": "c94e343d-08f5-44a7-bd6b-142af914dd8c",
+      "text": "Controlador",
+      "type": "kaos.EnvironmentAgent",
+      "x": -235.27627849448905,
+      "y": 541.5745738351703,
+      "customProperties": {}
+    },
+    {
+      "id": "1abf5238-79b4-4973-83c3-11201a66deac",
+      "text": "Acessibilidade dos alvos verificada",
+      "type": "kaos.BehavioralGoal",
+      "x": 189.95897106891744,
+      "y": 427.79179421378353,
+      "customProperties": {
+        "FormalSpec": "",
+        "Description": "Verificar se os alvos podem ser alcançados pelo robô antes da realização da coleta.",
+        "Type": "Achieve"
+      }
+    },
+    {
+      "id": "5c1d1928-189f-47fa-81d5-3c59c868907d",
+      "text": "Dados coletados nos alvos",
+      "type": "kaos.BehavioralGoal",
+      "x": 358.6529903563058,
+      "y": 428.1182893919364,
+      "customProperties": {
+        "FormalSpec": "",
+        "Description": "Realizar a coleta dos dados previstos para cada alvo de acordo com as informações da missão.",
+        "Type": "Achieve"
+      }
+    },
+    {
+      "id": "3bb8b602-78cc-4c98-a665-528fe8129f43",
+      "text": "Qualidade dos dados avaliada",
+      "type": "kaos.BehavioralGoal",
+      "x": 514.4652990356306,
+      "y": 428.5347009643694,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Achieve",
+        "Description": "Avaliar os dados coletados utilizando os critérios de qualidade previamente configurados."
+      }
+    },
+    {
+      "id": "95c6001e-b8d1-4c3c-a623-3958e773a644",
+      "text": "Controlador",
+      "type": "kaos.EnvironmentAgent",
+      "x": 435.2917379296003,
+      "y": 550.7500855155204,
+      "customProperties": {}
+    },
+    {
+      "id": "4ae94df7-7e73-4d68-a627-340134c74894",
+      "text": "Bateria monitorada durante a missão",
+      "type": "kaos.BehavioralGoal",
+      "x": 704.9195919470279,
+      "y": 431.5979597351394,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Maintain",
+        "Description": "Manter o acompanhamento contínuo do nível de bateria durante toda a execução da missão."
+      }
+    },
+    {
+      "id": "085b2057-3862-435b-a31b-d0866c8bd6d8",
+      "text": "Retorno seguro à base garantido",
+      "type": "kaos.BehavioralGoal",
+      "x": 864,
+      "y": 433,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Maintain",
+        "Description": "Garantir que o robô mantenha energia suficiente para retornar à base com segurança."
+      }
+    },
+    {
+      "id": "29edb2d1-79d4-4c5f-b85e-4a9139dbf0e3",
+      "text": "Recarga disponibilizada quando necessária",
+      "type": "kaos.BehavioralGoal",
+      "x": 1015,
+      "y": 439,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Achieve",
+        "Description": "Garantir que a Base de Recarga disponibilize energia para o robô quando houver necessidade de recarga."
+      }
+    },
+    {
+      "id": "3a028c3b-b47b-485a-8270-887767f5b5a2",
+      "text": "Base de recarga",
+      "type": "kaos.EnvironmentAgent",
+      "x": 957.7587758410834,
+      "y": 555.7010201324302,
+      "customProperties": {}
+    },
+    {
+      "id": "f0e45160-827c-4b26-a14a-082f7bca8cd1",
+      "text": "Informações da missão disponibilizadas ao Controlador",
+      "type": "kaos.BehavioralGoal",
+      "x": 1188,
+      "y": 437,
+      "customProperties": {
+        "FormalSpec": "",
+        "Description": "Manter as informações sobre o andamento da missão disponíveis para acompanhamento pelo Controlador.",
+        "Type": "Maintain"
+      }
+    },
+    {
+      "id": "19e63e3f-9f5f-4955-a550-8f919a27911f",
+      "text": "Alertas sobre situações importantes enviados",
+      "type": "kaos.BehavioralGoal",
+      "x": 1355,
+      "y": 439.08330482815984,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Achieve",
+        "Description": "Informar ao Controlador quando ocorrerem situações que possam afetar a execução da missão."
+      }
+    },
+    {
+      "id": "2e52544d-b384-4cf0-9362-244f2ff75553",
+      "text": "Intervenção do Controlador permitida",
+      "type": "kaos.BehavioralGoal",
+      "x": 1511.9790882774396,
+      "y": 438.2708262070399,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Maintain",
+        "Description": "Permitir que o Controlador acompanhe a missão e realize intervenções quando necessário."
+      }
+    },
+    {
+      "id": "73918606-7d78-4142-9883-98f9210a2e2b",
+      "text": "Resultado de cada alvo registrado",
+      "type": "kaos.BehavioralGoal",
+      "x": 1730,
+      "y": 443,
+      "customProperties": {
+        "FormalSpec": "",
+        "Description": "Registrar o resultado obtido em cada alvo visitado durante a missão.",
+        "Type": "Achieve"
+      }
+    },
+    {
+      "id": "4b5462f4-eb32-4a9a-908f-20c986539bef",
+      "text": "Dados associados aos respectivos alvos",
+      "type": "kaos.BehavioralGoal",
+      "x": 1902.9422442913467,
+      "y": 438,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Maintain",
+        "Description": "Manter os dados coletados associados ao alvo correspondente e às informações do processo de coleta."
+      }
+    },
+    {
+      "id": "dc146b55-9b1d-4f1a-836f-f180e9a2c0f4",
+      "text": "Conclusão da missão registrada",
+      "type": "kaos.BehavioralGoal",
+      "x": 2087,
+      "y": 440,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Achieve",
+        "Description": "Registrar a conclusão da missão após a obtenção de um resultado para todos os alvos obrigatórios."
+      }
+    }
+  ],
+  "dependencies": [],
+  "links": [
+    {
+      "hub": {
+        "id": "0029f119-76ea-4824-a75f-6d35a9e91c8d",
+        "type": "kaos.RefinementLinkHub",
+        "x": 893.095826282153,
+        "y": 221.95687131310143,
+        "customProperties": {
+          "SysRef": "",
+          "Status": "",
+          "Tactic": ""
+        }
+      },
+      "starts": [
+        {
+          "id": "fdb89313-65bc-4e26-b944-ee445bf790c5",
+          "type": "kaos.RefinementLinkStart",
+          "source": "a21f0496-abe4-4c0c-aaad-6b575e4ef0a5",
+          "target": "0029f119-76ea-4824-a75f-6d35a9e91c8d"
+        },
+        {
+          "id": "6791d679-615b-4b1d-867d-723cde55e8d7",
+          "type": "kaos.RefinementLinkStart",
+          "source": "be9d9420-0c9a-4f16-9314-a3e5ba808063",
+          "target": "0029f119-76ea-4824-a75f-6d35a9e91c8d"
+        },
+        {
+          "id": "2627d80c-0f39-4cc2-b4d7-32b5b76c27a9",
+          "type": "kaos.RefinementLinkStart",
+          "source": "863859fb-05bf-43bb-b547-5400f22eb488",
+          "target": "0029f119-76ea-4824-a75f-6d35a9e91c8d"
+        },
+        {
+          "id": "69f327eb-6feb-4544-b975-547ba33217fd",
+          "type": "kaos.RefinementLinkStart",
+          "source": "8986017e-7e18-4479-86da-d51ffd2cdda5",
+          "target": "0029f119-76ea-4824-a75f-6d35a9e91c8d"
+        },
+        {
+          "id": "9a2e5530-d47f-40b4-a5f4-6114094a0467",
+          "type": "kaos.RefinementLinkStart",
+          "source": "78bc8336-e5e5-4e54-a8a4-3f9a2bfd5c8c",
+          "target": "0029f119-76ea-4824-a75f-6d35a9e91c8d"
+        }
+      ],
+      "end": {
+        "id": "d904454a-b6e7-41d9-9920-92c500201190",
+        "type": "kaos.RefinementLinkEnd",
+        "source": "0029f119-76ea-4824-a75f-6d35a9e91c8d",
+        "target": "5c07ab04-27a4-47e3-b333-3b295ee6c323"
+      }
+    },
+    {
+      "id": "8bee382f-dc52-4f3d-bb90-fc0937b47d98",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "6b50c00b-fd18-4f7b-b6e4-14124c4e6ddb",
+      "target": "a13abe59-5f78-4f88-a565-d4e0f7e305fa"
+    },
+    {
+      "id": "4c1f0484-163a-4760-9442-5ab6eb8a8160",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "59bea676-db7c-4f20-bfc9-f41c5debf672",
+      "target": "2f867e1b-a5d9-44a8-996a-526f032c7d73"
+    },
+    {
+      "id": "6fdb616c-71a6-4820-b319-9da43a784fd6",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "c94e343d-08f5-44a7-bd6b-142af914dd8c",
+      "target": "4592a50e-b90c-40c5-9730-529c2c287d1f"
+    },
+    {
+      "id": "83a54b30-9ec9-451c-8b34-43d47ef3b052",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "5f14f674-ac90-485f-b2ec-8d5bc868cc62",
+      "target": "183d4c22-7a8b-4ee2-b501-099a76db8998"
+    },
+    {
+      "hub": {
+        "id": "065d84f9-b99f-4486-8234-6af1d74a4621",
+        "type": "kaos.RefinementLinkHub",
+        "x": -240.62543957734698,
+        "y": 384.2563355330675,
+        "customProperties": {
+          "SysRef": "",
+          "Status": "",
+          "Tactic": ""
+        }
+      },
+      "starts": [
+        {
+          "id": "5b641cdc-9d7f-409c-a847-03d9e0ec55d5",
+          "type": "kaos.RefinementLinkStart",
+          "source": "2f867e1b-a5d9-44a8-996a-526f032c7d73",
+          "target": "065d84f9-b99f-4486-8234-6af1d74a4621"
+        },
+        {
+          "id": "a551c998-93cc-4ab4-be2b-32cf12be6c9b",
+          "type": "kaos.RefinementLinkStart",
+          "source": "a13abe59-5f78-4f88-a565-d4e0f7e305fa",
+          "target": "065d84f9-b99f-4486-8234-6af1d74a4621"
+        },
+        {
+          "id": "19fff99b-b422-4108-9844-df554d736495",
+          "type": "kaos.RefinementLinkStart",
+          "source": "4592a50e-b90c-40c5-9730-529c2c287d1f",
+          "target": "065d84f9-b99f-4486-8234-6af1d74a4621"
+        },
+        {
+          "id": "1d5c0b43-8334-413f-8bf8-804d962e2fbd",
+          "type": "kaos.RefinementLinkStart",
+          "source": "183d4c22-7a8b-4ee2-b501-099a76db8998",
+          "target": "065d84f9-b99f-4486-8234-6af1d74a4621"
+        }
+      ],
+      "end": {
+        "id": "819ab61f-3df7-48d9-b256-330b24360f26",
+        "type": "kaos.RefinementLinkEnd",
+        "source": "065d84f9-b99f-4486-8234-6af1d74a4621",
+        "target": "be9d9420-0c9a-4f16-9314-a3e5ba808063"
+      }
+    },
+    {
+      "id": "dd05080c-8324-4294-b564-c2e648bd0f05",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "e9693497-0127-43cc-822f-35e569ef554a",
+      "target": "1abf5238-79b4-4973-83c3-11201a66deac"
+    },
+    {
+      "id": "3e0a6c3b-a60b-4250-9498-623d2caaeb02",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "e9693497-0127-43cc-822f-35e569ef554a",
+      "target": "5c1d1928-189f-47fa-81d5-3c59c868907d"
+    },
+    {
+      "id": "955d41f0-cffe-47f1-a228-73b70b135cd1",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "95c6001e-b8d1-4c3c-a623-3958e773a644",
+      "target": "3bb8b602-78cc-4c98-a665-528fe8129f43"
+    },
+    {
+      "hub": {
+        "id": "822d9ded-02a9-4ed1-9af3-c2131fa12f41",
+        "type": "kaos.RefinementLinkHub",
+        "x": 419.0981626609379,
+        "y": 391.4763269804462,
+        "customProperties": {
+          "SysRef": "",
+          "Status": "",
+          "Tactic": ""
+        }
+      },
+      "starts": [
+        {
+          "id": "78a55191-4a15-4872-a206-e6c8a05cced6",
+          "type": "kaos.RefinementLinkStart",
+          "source": "5c1d1928-189f-47fa-81d5-3c59c868907d",
+          "target": "822d9ded-02a9-4ed1-9af3-c2131fa12f41"
+        },
+        {
+          "id": "718b32c5-1f73-4207-8385-0012ee2e2452",
+          "type": "kaos.RefinementLinkStart",
+          "source": "1abf5238-79b4-4973-83c3-11201a66deac",
+          "target": "822d9ded-02a9-4ed1-9af3-c2131fa12f41"
+        },
+        {
+          "id": "113b67b3-926f-4ee5-a067-9cf9ef9db3b5",
+          "type": "kaos.RefinementLinkStart",
+          "source": "3bb8b602-78cc-4c98-a665-528fe8129f43",
+          "target": "822d9ded-02a9-4ed1-9af3-c2131fa12f41"
+        }
+      ],
+      "end": {
+        "id": "0707f299-a6bd-4c35-b051-8d36c54d004d",
+        "type": "kaos.RefinementLinkEnd",
+        "source": "822d9ded-02a9-4ed1-9af3-c2131fa12f41",
+        "target": "a21f0496-abe4-4c0c-aaad-6b575e4ef0a5"
+      }
+    },
+    {
+      "id": "c90163dc-4fdb-4733-b046-5fe5e5f600fd",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "351cfb3f-c8db-4887-b6e9-216b4527ff70",
+      "target": "4ae94df7-7e73-4d68-a627-340134c74894"
+    },
+    {
+      "id": "5ecf5f7a-e7c7-4417-9b71-a0b61302ea39",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "351cfb3f-c8db-4887-b6e9-216b4527ff70",
+      "target": "085b2057-3862-435b-a31b-d0866c8bd6d8"
+    },
+    {
+      "id": "d3b75d96-c15c-4d12-902f-70ea7130dd9e",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "3a028c3b-b47b-485a-8270-887767f5b5a2",
+      "target": "29edb2d1-79d4-4c5f-b85e-4a9139dbf0e3"
+    },
+    {
+      "hub": {
+        "id": "6e19eda2-0341-4cca-8b41-9625ddd6cee5",
+        "type": "kaos.RefinementLinkHub",
+        "x": 873.8345199134493,
+        "y": 390.7524591286143,
+        "customProperties": {
+          "SysRef": "",
+          "Status": "",
+          "Tactic": ""
+        }
+      },
+      "starts": [
+        {
+          "id": "94fea6c4-85be-4f3e-98ef-69b5ad9e433a",
+          "type": "kaos.RefinementLinkStart",
+          "source": "4ae94df7-7e73-4d68-a627-340134c74894",
+          "target": "6e19eda2-0341-4cca-8b41-9625ddd6cee5"
+        },
+        {
+          "id": "21a33f01-5d8e-40d8-bf1d-d6232d345431",
+          "type": "kaos.RefinementLinkStart",
+          "source": "085b2057-3862-435b-a31b-d0866c8bd6d8",
+          "target": "6e19eda2-0341-4cca-8b41-9625ddd6cee5"
+        },
+        {
+          "id": "9d2b2f3d-dc61-496f-b74c-6b1d80196623",
+          "type": "kaos.RefinementLinkStart",
+          "source": "29edb2d1-79d4-4c5f-b85e-4a9139dbf0e3",
+          "target": "6e19eda2-0341-4cca-8b41-9625ddd6cee5"
+        }
+      ],
+      "end": {
+        "id": "e98df552-cd2d-429f-8709-d206730b8816",
+        "type": "kaos.RefinementLinkEnd",
+        "source": "6e19eda2-0341-4cca-8b41-9625ddd6cee5",
+        "target": "863859fb-05bf-43bb-b547-5400f22eb488"
+      }
+    },
+    {
+      "id": "d6e73760-50e6-41b1-849c-b69b0a13f891",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "1bb9b1d4-aa45-4884-a60a-90f6640889c7",
+      "target": "f0e45160-827c-4b26-a14a-082f7bca8cd1"
+    },
+    {
+      "id": "daf4409f-dc64-4e72-88c7-9e9927351fe2",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "1bb9b1d4-aa45-4884-a60a-90f6640889c7",
+      "target": "19e63e3f-9f5f-4955-a550-8f919a27911f"
+    },
+    {
+      "id": "b248c516-1aa0-4ed6-b450-f770e35d38ef",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "0e314bc2-8ede-4a14-996a-4a04675467ec",
+      "target": "2e52544d-b384-4cf0-9362-244f2ff75553"
+    },
+    {
+      "hub": {
+        "id": "a83f7eb0-1529-43b5-b0f2-fcdf7340871f",
+        "type": "kaos.RefinementLinkHub",
+        "x": 1354.0910399187765,
+        "y": 403.42977747069904,
+        "customProperties": {
+          "SysRef": "",
+          "Status": "",
+          "Tactic": ""
+        }
+      },
+      "starts": [
+        {
+          "id": "5cc07c45-a1c4-4f1d-a2ee-2d6b88723ecb",
+          "type": "kaos.RefinementLinkStart",
+          "source": "f0e45160-827c-4b26-a14a-082f7bca8cd1",
+          "target": "a83f7eb0-1529-43b5-b0f2-fcdf7340871f"
+        },
+        {
+          "id": "a71e933b-8297-4a26-9ace-f8d9a6de598d",
+          "type": "kaos.RefinementLinkStart",
+          "source": "19e63e3f-9f5f-4955-a550-8f919a27911f",
+          "target": "a83f7eb0-1529-43b5-b0f2-fcdf7340871f"
+        },
+        {
+          "id": "e8440e13-aba8-4811-a198-d069075eded0",
+          "type": "kaos.RefinementLinkStart",
+          "source": "2e52544d-b384-4cf0-9362-244f2ff75553",
+          "target": "a83f7eb0-1529-43b5-b0f2-fcdf7340871f"
+        }
+      ],
+      "end": {
+        "id": "77927dff-fef1-480e-830a-1cbfc5c089b8",
+        "type": "kaos.RefinementLinkEnd",
+        "source": "a83f7eb0-1529-43b5-b0f2-fcdf7340871f",
+        "target": "8986017e-7e18-4479-86da-d51ffd2cdda5"
+      }
+    },
+    {
+      "id": "b07e4913-eaa0-409c-914b-69bc1699c431",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "b2c530fe-2870-46af-b2e4-a7a75d4f198e",
+      "target": "73918606-7d78-4142-9883-98f9210a2e2b"
+    },
+    {
+      "id": "2f1f0d83-a308-49ee-91d0-0fbb5569439e",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "b2c530fe-2870-46af-b2e4-a7a75d4f198e",
+      "target": "4b5462f4-eb32-4a9a-908f-20c986539bef"
+    },
+    {
+      "id": "f2ba80d2-4b68-487b-b261-f0f83b550203",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "b2c530fe-2870-46af-b2e4-a7a75d4f198e",
+      "target": "dc146b55-9b1d-4f1a-836f-f180e9a2c0f4"
+    },
+    {
+      "hub": {
+        "id": "b4d4ba2a-e0a0-4175-8ac9-1b702e730b04",
+        "type": "kaos.RefinementLinkHub",
+        "x": 1975.2323131044786,
+        "y": 392.76431631830235,
+        "customProperties": {
+          "SysRef": "",
+          "Status": "",
+          "Tactic": ""
+        }
+      },
+      "starts": [
+        {
+          "id": "c06d3600-14f8-495c-9208-37749288c5ad",
+          "type": "kaos.RefinementLinkStart",
+          "source": "4b5462f4-eb32-4a9a-908f-20c986539bef",
+          "target": "b4d4ba2a-e0a0-4175-8ac9-1b702e730b04"
+        },
+        {
+          "id": "64c31ec8-7143-49cf-a756-dfeddcb367e1",
+          "type": "kaos.RefinementLinkStart",
+          "source": "73918606-7d78-4142-9883-98f9210a2e2b",
+          "target": "b4d4ba2a-e0a0-4175-8ac9-1b702e730b04"
+        },
+        {
+          "id": "2131a0d8-aca1-40d0-8f30-782430bb2758",
+          "type": "kaos.RefinementLinkStart",
+          "source": "dc146b55-9b1d-4f1a-836f-f180e9a2c0f4",
+          "target": "b4d4ba2a-e0a0-4175-8ac9-1b702e730b04"
+        }
+      ],
+      "end": {
+        "id": "11be817c-0ccd-4298-af50-0ccd83a46b51",
+        "type": "kaos.RefinementLinkEnd",
+        "source": "b4d4ba2a-e0a0-4175-8ac9-1b702e730b04",
+        "target": "78bc8336-e5e5-4e54-a8a4-3f9a2bfd5c8c"
+      }
+    }
+  ],
+  "display": {
+    "5c07ab04-27a4-47e3-b333-3b295ee6c323": {
+      "width": 187,
+      "height": 51
+    },
+    "be9d9420-0c9a-4f16-9314-a3e5ba808063": {
+      "width": 173,
+      "height": 52
+    },
+    "a21f0496-abe4-4c0c-aaad-6b575e4ef0a5": {
+      "width": 185,
+      "height": 49
+    },
+    "863859fb-05bf-43bb-b547-5400f22eb488": {
+      "width": 158,
+      "height": 44
+    },
+    "8986017e-7e18-4479-86da-d51ffd2cdda5": {
+      "width": 160,
+      "height": 43
+    },
+    "78bc8336-e5e5-4e54-a8a4-3f9a2bfd5c8c": {
+      "width": 172,
+      "height": 46
+    },
+    "5f14f674-ac90-485f-b2ec-8d5bc868cc62": {
+      "width": 160,
+      "height": 40
+    },
+    "59bea676-db7c-4f20-bfc9-f41c5debf672": {
+      "width": 145,
+      "height": 38
+    },
+    "e9693497-0127-43cc-822f-35e569ef554a": {
+      "width": 145,
+      "height": 34
+    },
+    "a13abe59-5f78-4f88-a565-d4e0f7e305fa": {
+      "width": 154,
+      "height": 45
+    },
+    "2f867e1b-a5d9-44a8-996a-526f032c7d73": {
+      "width": 149,
+      "height": 41
+    },
+    "4592a50e-b90c-40c5-9730-529c2c287d1f": {
+      "width": 154,
+      "height": 41
+    },
+    "183d4c22-7a8b-4ee2-b501-099a76db8998": {
+      "width": 150,
+      "height": 41
+    },
+    "1abf5238-79b4-4973-83c3-11201a66deac": {
+      "width": 151,
+      "height": 42
+    },
+    "5c1d1928-189f-47fa-81d5-3c59c868907d": {
+      "width": 139,
+      "height": 40
+    },
+    "3bb8b602-78cc-4c98-a665-528fe8129f43": {
+      "width": 145,
+      "height": 42
+    },
+    "4ae94df7-7e73-4d68-a627-340134c74894": {
+      "width": 139,
+      "height": 47
+    },
+    "085b2057-3862-435b-a31b-d0866c8bd6d8": {
+      "width": 137,
+      "height": 46
+    },
+    "29edb2d1-79d4-4c5f-b85e-4a9139dbf0e3": {
+      "width": 143,
+      "height": 41
+    },
+    "3a028c3b-b47b-485a-8270-887767f5b5a2": {
+      "width": 148
+    },
+    "f0e45160-827c-4b26-a14a-082f7bca8cd1": {
+      "width": 154,
+      "height": 42
+    },
+    "19e63e3f-9f5f-4955-a550-8f919a27911f": {
+      "width": 145,
+      "height": 43
+    },
+    "2e52544d-b384-4cf0-9362-244f2ff75553": {
+      "width": 151,
+      "height": 42
+    },
+    "4b5462f4-eb32-4a9a-908f-20c986539bef": {
+      "width": 156,
+      "height": 41
+    },
+    "dc146b55-9b1d-4f1a-836f-f180e9a2c0f4": {
+      "width": 149,
+      "height": 40
+    }
+  },
+  "tool": "dsm3-goals",
+  "metamodelVersion": "1.0",
+  "saveDate": "Mon, 29 Apr 2019 05:14:41 GMT",
+  "diagram": {
+    "width": 2000,
+    "height": 1300,
+    "name": "Example KAOS goal model",
+    "customProperties": {
+      "Description": "The tool for KAOS goal models has two noteworthy features: \n - Creation of links with multiple sources (e.g., the AND-refinement of Reliability;\n - Pre-defined properties in goals, refinement links (in the circle) and conflict links",
+      "engine": "kaos",
+      "framework": "kaos"
+    }
+  }
+}
