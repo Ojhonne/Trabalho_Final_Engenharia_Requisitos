@@ -1,0 +1,1659 @@
+{
+  "actors": [],
+  "orphans": [
+    {
+      "id": "d1e09131-6cde-494d-a87b-b41afd57a1a3",
+      "text": "Conclusão da coleta em alvos obrigatórios",
+      "type": "kaos.BehavioralGoal",
+      "x": 2149.451784375622,
+      "y": -74.44006386229114,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Achieve",
+        "Description": "Todos os alvos obrigatórios têm status explícito registrado no log (concluído, inacessível ou qualidade insuficiente)."
+      }
+    },
+    {
+      "id": "9c11b481-1e53-44b5-87c1-6606691bab38",
+      "text": "Missão iniciada com viabilidade energética",
+      "type": "kaos.BehavioralGoal",
+      "x": 82.49455213279494,
+      "y": 157.64166298149826,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Achieve",
+        "Description": "A missão é configurada e só começa se a carga cobre a missão estimada."
+      }
+    },
+    {
+      "id": "7dd14bd5-e419-41f5-80ea-e732eb712bf3",
+      "text": "Missão configurada com os dados de entrada",
+      "type": "kaos.BehavioralGoal",
+      "x": -145.37917367995246,
+      "y": 310.89219012998217,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Achieve",
+        "Description": "Lista, critérios e topologia disponíveis antes de iniciar."
+      }
+    },
+    {
+      "id": "903d9834-3378-4238-8f29-c0fb53fc4f18",
+      "text": "Lista de alvos cadastrada",
+      "type": "kaos.BehavioralGoal",
+      "x": -221.46624000755344,
+      "y": 511.25732077381235,
+      "customProperties": {
+        "FormalSpec": "",
+        "Description": "Coordenadas, prioridade, ordem e tipo de dado informados."
+      }
+    },
+    {
+      "id": "874048b1-f488-4e18-9bab-21fad19498b3",
+      "text": "Critérios de qualidade configurados",
+      "type": "kaos.BehavioralGoal",
+      "x": -33.34244420575864,
+      "y": 512.1053111115103,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Achieve",
+        "Description": "Critérios usados para avaliar cada coleta."
+      }
+    },
+    {
+      "id": "ce48cd8a-4a0d-491b-89fe-df8cbcc5f9ff",
+      "text": "Topologia do terreno recebida",
+      "type": "kaos.BehavioralGoal",
+      "x": 148.89214781572346,
+      "y": 508.7085116846499,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Achieve",
+        "Description": "O Drone transmite o mapa topológico."
+      }
+    },
+    {
+      "id": "446cba28-d685-4c17-81a6-9f894bc3aa98",
+      "text": "Bateria verificada antes do início",
+      "type": "kaos.BehavioralGoal",
+      "x": 57.30720568009528,
+      "y": 314.0414762676813,
+      "customProperties": {
+        "FormalSpec": "",
+        "Description": "Carga atual comparada com o consumo da missão estimada."
+      }
+    },
+    {
+      "id": "85f8a04e-a631-49c6-ade7-b8fe06b700b0",
+      "text": "Controlador alertado quando a carga é insuficiente",
+      "type": "kaos.BehavioralGoal",
+      "x": 239,
+      "y": 314.99999999999994,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Achieve",
+        "Description": "O alerta é emitido na interface do Controlador."
+      }
+    },
+    {
+      "id": "5f444fe4-1749-4aad-8728-7d29efc30165",
+      "text": "Missão não iniciada com carga insuficiente",
+      "type": "kaos.BehavioralGoal",
+      "x": 407,
+      "y": 314.9999999999999,
+      "customProperties": {
+        "FormalSpec": "",
+        "Description": "A missão não começa até recarga ou ajuste da lista.",
+        "Type": "Avoid"
+      }
+    },
+    {
+      "id": "21b15db3-6e9a-4df4-87d2-9477edfc8df4",
+      "text": "Viabilidade energética restabelecida (OU)",
+      "type": "kaos.BehavioralGoal",
+      "x": 587.1121265723663,
+      "y": 317.5660143860523,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Achieve",
+        "Description": "Recarga concluída ou lista de alvos ajustada."
+      }
+    },
+    {
+      "id": "9169281a-d700-45dc-98bb-1032aed02b83",
+      "text": "Recarga concluída e sinalizada",
+      "type": "kaos.BehavioralGoal",
+      "x": 574.1056515188435,
+      "y": 442.8401243298634,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Achieve",
+        "Description": "A Base sinaliza recarga a 100%."
+      }
+    },
+    {
+      "id": "605f5c9b-3771-435c-8c2b-1fa9d290c464",
+      "text": "Lista de alvos ajustada",
+      "type": "kaos.BehavioralGoal",
+      "x": 398.1413418154363,
+      "y": 443.66171480502663,
+      "customProperties": {
+        "FormalSpec": "",
+        "Description": "O Controlador reduz ou altera a lista até ser viável.",
+        "Type": "Achieve"
+      }
+    },
+    {
+      "id": "1174620b-b2f0-4b6b-bea8-f33993e16f4c",
+      "text": "Alvo obrigatório visitado com resultado explícito",
+      "type": "kaos.BehavioralGoal",
+      "x": 1225.0975680086517,
+      "y": 155.9327431296538,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Achieve",
+        "Description": "Cada alvo termina com um dos três resultados válidos."
+      }
+    },
+    {
+      "id": "c6757ca7-2958-4705-8638-ff22ebf7ee1d",
+      "text": "Acesso ao alvo resolvido",
+      "type": "kaos.BehavioralGoal",
+      "x": 937.6863030187397,
+      "y": 308.0893609352571,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Achieve",
+        "Description": "O robô chega a uma posição de coleta ou marca o alvo inacessível."
+      }
+    },
+    {
+      "id": "7fe74d82-27bf-4e75-8e23-a15829f2981f",
+      "text": "Acessibilidade verificada",
+      "type": "kaos.BehavioralGoal",
+      "x": 779.0868896620691,
+      "y": 441.54509779911297,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Achieve",
+        "Description": "Verificação feita antes da coleta, com o sinal de obstáculo dos sensores."
+      }
+    },
+    {
+      "id": "a49aa46e-37ce-47bf-80ab-dee55770a328",
+      "text": "Desvio para posição alternativa comandado",
+      "type": "kaos.BehavioralGoal",
+      "x": 933.0303334484453,
+      "y": 438.243243121928,
+      "customProperties": {
+        "FormalSpec": "",
+        "Description": "Havendo obstáculo, tenta uma posição alternativa.",
+        "Type": "Achieve"
+      }
+    },
+    {
+      "id": "6543b4c0-8627-43a9-b4df-f941a17ac095",
+      "text": "Alvo marcado “inacessível”",
+      "type": "kaos.BehavioralGoal",
+      "x": 1095.6600141379777,
+      "y": 441.3442507261472,
+      "customProperties": {
+        "FormalSpec": "",
+        "Description": "Sem posição viável, o alvo é marcado e a missão prossegue.",
+        "Type": "Achieve"
+      }
+    },
+    {
+      "id": "7436d458-567c-4d6d-a5ca-4f8cf6d207ae",
+      "text": "Dado coletado com qualidade avaliada",
+      "type": "kaos.BehavioralGoal",
+      "x": 1323.4382046389476,
+      "y": 317.4475278667055,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Achieve",
+        "Description": "Toda coleta tem a qualidade avaliada, com tratamento se insuficiente."
+      }
+    },
+    {
+      "id": "30482caf-4c0f-4f0d-9ae1-6adad864953a",
+      "text": "Qualidade avaliada contra critérios configuráveis",
+      "type": "kaos.BehavioralGoal",
+      "x": 1299.4343742407611,
+      "y": 441.49559828624666,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Achieve",
+        "Description": "A avaliação usa os critérios do G1.1.2."
+      }
+    },
+    {
+      "id": "9f107a24-4193-48b8-80a4-08e38f85e1ee",
+      "text": "Nova coleta com ajuste de posição ou sensor",
+      "type": "kaos.BehavioralGoal",
+      "x": 1469.8061340426777,
+      "y": 446.5400112713565,
+      "customProperties": {
+        "FormalSpec": "",
+        "Description": "Até 2 repetições, ajustando posição ou parâmetros.",
+        "Type": "Achieve"
+      }
+    },
+    {
+      "id": "32000cef-00c9-4fc7-9a21-a0c159f5961e",
+      "text": "Coleta marcada “qualidade insuficiente”",
+      "type": "kaos.BehavioralGoal",
+      "x": 1655.8516881984651,
+      "y": 438.6875150110029,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Achieve",
+        "Description": "Após as retentativas, a coleta é marcada e a missão prossegue."
+      }
+    },
+    {
+      "id": "9ad7855d-b635-4cac-8509-8bc46391db9c",
+      "text": "Dado associado ao alvo e ao processo de coleta",
+      "type": "kaos.BehavioralGoal",
+      "x": 1520.412871152838,
+      "y": 318.061049688464,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Maintain",
+        "Description": "Todo dado fica ligado ao alvo e às informações da coleta."
+      }
+    },
+    {
+      "id": "04987747-ce35-4c8d-9b50-33a5988d19a0",
+      "text": "Missão prossegue após falha pontual",
+      "type": "kaos.BehavioralGoal",
+      "x": 1703.8597708674997,
+      "y": 320.8713283787659,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Maintain",
+        "Description": "Alvo inacessível ou de qualidade insuficiente não bloqueia a missão."
+      }
+    },
+    {
+      "id": "851b92a0-68c5-4445-bbcd-12934e4ca642",
+      "text": "Resultado de cada alvo registrado no log",
+      "type": "kaos.BehavioralGoal",
+      "x": 1871.9148194299253,
+      "y": 315.59250045322307,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Achieve",
+        "Description": "O status de cada alvo é registrado e exibido no log."
+      }
+    },
+    {
+      "id": "37ed8dbe-5125-4078-8bb7-1387faf07042",
+      "text": "Obrigatórios priorizados sobre os opcionais",
+      "type": "kaos.BehavioralGoal",
+      "x": 2182.9791920109315,
+      "y": 155.98741496523812,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Maintain",
+        "Description": "Ordem e prioridade dos alvos respeitadas."
+      }
+    },
+    {
+      "id": "b9368594-d6b5-4ced-baf7-bfe3451a13e1",
+      "text": "Opcional visitado só com tempo e energia",
+      "type": "kaos.BehavioralGoal",
+      "x": 2049.909457220633,
+      "y": 309.8456748851739,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Achieve",
+        "Description": "Saldo de tempo e energia verificado antes de cada opcional."
+      }
+    },
+    {
+      "id": "ad26e4f1-04dc-4d8b-9a14-524efff18050",
+      "text": "Opcional não visitado antes dos obrigatórios",
+      "type": "kaos.BehavioralGoal",
+      "x": 2213.7659681411183,
+      "y": 310.67111781052665,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Avoid",
+        "Description": "Garante a prioridade dos obrigatórios."
+      }
+    },
+    {
+      "id": "3b3b8835-06cc-4903-8f60-5183a16f25aa",
+      "text": "Transição para os opcionais sinalizada",
+      "type": "kaos.BehavioralGoal",
+      "x": 2387.953795671571,
+      "y": 310.1470297217439,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Achieve",
+        "Description": "O Controlador é avisado de que a fase dos obrigatórios encerrou."
+      }
+    },
+    {
+      "id": "c9298d6d-aa7c-450f-ba10-fd885da9af17",
+      "text": "Obrigatórios visitados na ordem definida",
+      "type": "kaos.BehavioralGoal",
+      "x": 2552.8279705942773,
+      "y": 307.9721947372025,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Maintain",
+        "Description": "A ordem da lista é respeitada."
+      }
+    },
+    {
+      "id": "a3a279a8-3d7e-423a-9bfb-6fe48e44f80b",
+      "text": "Segurança energética em campo",
+      "type": "kaos.BehavioralGoal",
+      "x": 3314.207177160311,
+      "y": 182.89818120335127,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Maintain",
+        "Description": "A carga nunca chega a zero em campo."
+      }
+    },
+    {
+      "id": "74e24f72-556e-4942-968b-a90b0154272c",
+      "text": "Bateria monitorada continuamente",
+      "type": "kaos.BehavioralGoal",
+      "x": 2805.78507228243,
+      "y": 310.2655241615786,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Maintain",
+        "Description": "Nível de carga conhecido durante toda a missão."
+      }
+    },
+    {
+      "id": "3bd4a226-c33d-4324-a166-93b0e5558646",
+      "text": "Limiar de retorno seguro calculado da posição atual",
+      "type": "kaos.BehavioralGoal",
+      "x": 2975.110503722372,
+      "y": 307.6553626933079,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Achieve",
+        "Description": "O limiar varia com a posição do robô."
+      }
+    },
+    {
+      "id": "896913d7-b5e2-4f13-b418-2a200807a456",
+      "text": "Alerta de bateria crítica enviado",
+      "type": "kaos.BehavioralGoal",
+      "x": 3133.8875666355184,
+      "y": 303.4684519154939,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Achieve",
+        "Description": "O Controlador é avisado do estado crítico."
+      }
+    },
+    {
+      "id": "00261788-a8d3-4222-8fb2-c8b840a848a3",
+      "text": "Missão interrompida e checkpoint salvo",
+      "type": "kaos.BehavioralGoal",
+      "x": 3302.7812253495995,
+      "y": 299.65631433911835,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Achieve",
+        "Description": "Registra o estado atual e o alvo pendente."
+      }
+    },
+    {
+      "id": "d094e768-5df3-4619-bb25-f8b9d6597db5",
+      "text": "Robô retornado à base de forma autônoma",
+      "type": "kaos.BehavioralGoal",
+      "x": 3471.75770677676,
+      "y": 298.0132258204337,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Achieve",
+        "Description": "O retorno não depende de comando humano."
+      }
+    },
+    {
+      "id": "027a3abc-9c1a-4e50-b48b-fc1521039c2f",
+      "text": "Recarga concluída e sinalizada",
+      "type": "kaos.BehavioralGoal",
+      "x": 3623.0998573237157,
+      "y": 304.3236836197612,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Achieve",
+        "Description": "A Base recarrega e sinaliza."
+      }
+    },
+    {
+      "id": "e2ba0f5a-9825-4e57-8465-ddef4023875b",
+      "text": "Retomada autorizada",
+      "type": "kaos.BehavioralGoal",
+      "x": 3791.4287820502377,
+      "y": 301.0132258204337,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Achieve",
+        "Description": "O Controlador autoriza a continuação."
+      }
+    },
+    {
+      "id": "f960b84a-7b2c-4edc-bb18-ba2966c0c6eb",
+      "text": "Retorno ao ponto pendente sem duplicar coletas",
+      "type": "kaos.BehavioralGoal",
+      "x": 3952.880574172701,
+      "y": 300.9035842449264,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Achieve",
+        "Description": "Retoma a partir do checkpoint."
+      }
+    },
+    {
+      "id": "48005563-d490-44f6-b712-914c7f253551",
+      "text": "Bateria não esgotada em campo",
+      "type": "kaos.BehavioralGoal",
+      "x": 4110.943440438743,
+      "y": 301.3564345453952,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Avoid",
+        "Description": "O robô nunca fica sem energia fora da base."
+      }
+    },
+    {
+      "id": "cfd4ec3e-e089-4a38-b9d4-806e5c14163b",
+      "text": "Missão monitorável e passível de intervenção",
+      "type": "kaos.BehavioralGoal",
+      "x": 4400.990002024996,
+      "y": 177.01079676680214,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Maintain",
+        "Description": "O Controlador acompanha e pode intervir."
+      }
+    },
+    {
+      "id": "8e464004-0a3c-4614-9a5d-0c3708271912",
+      "text": "Log e telemetria disponibilizados ao Controlador",
+      "type": "kaos.BehavioralGoal",
+      "x": 4325.969195063418,
+      "y": 298.3495351665323,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Achieve",
+        "Description": "O andamento é visível."
+      }
+    },
+    {
+      "id": "ab48b5c0-1dc5-41d3-8778-c29ee61a333e",
+      "text": "Conclusão da missão notificada",
+      "type": "kaos.BehavioralGoal",
+      "x": 4492.063631129348,
+      "y": 296.53065319611676,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Achieve",
+        "Description": "Avisa após o último obrigatório ter resultado."
+      }
+    },
+    {
+      "id": "e88bd9ae-b698-49c6-9c17-d273d63697d0",
+      "text": "Comandos de intervenção aceitos e aplicados",
+      "type": "kaos.BehavioralGoal",
+      "x": 4659.822321549304,
+      "y": 295.2056972561742,
+      "customProperties": {
+        "FormalSpec": "",
+        "Type": "Achieve",
+        "Description": "Pausa, aborto e retomada."
+      }
+    },
+    {
+      "id": "2014248f-3969-4468-8d7c-c56420e2efea",
+      "text": "Lista classifica cada alvo como obrigatório ou opcional",
+      "type": "kaos.DomainProperty",
+      "x": 2449,
+      "y": -29.00000000000006,
+      "customProperties": {}
+    },
+    {
+      "id": "494efde2-6561-4b24-aacd-cc2a9376288a",
+      "text": "Terreno estável,\ngasto previsível",
+      "type": "kaos.DomainProperty",
+      "x": -110.00000000000003,
+      "y": 197.99999999999997,
+      "customProperties": {}
+    },
+    {
+      "id": "de6018fe-3f22-4600-bbb3-e1bfd7427152",
+      "text": "Degradação da\nbateria constante\n",
+      "type": "kaos.DomainProperty",
+      "x": 286.9999999999999,
+      "y": 196,
+      "customProperties": {}
+    },
+    {
+      "id": "6440dbdf-0b10-4e01-8793-8f67f16477ca",
+      "text": "Falha num alvo\nnão trava missão",
+      "type": "kaos.DomainProperty",
+      "x": 993.1324256956404,
+      "y": 167.32846532463216,
+      "customProperties": {}
+    },
+    {
+      "id": "bacdaf60-e48e-4373-bfeb-cfa6a7bb4d44",
+      "text": "Há posição alternativa",
+      "type": "kaos.DomainProperty",
+      "x": 781.3218647062852,
+      "y": 318.9655941188555,
+      "customProperties": {}
+    },
+    {
+      "id": "c972b0a7-f67a-46b3-a811-96162144a961",
+      "text": "Dado reflete o cultivo",
+      "type": "kaos.DomainProperty",
+      "x": 1157.3284653246321,
+      "y": 314.74834984541326,
+      "customProperties": {}
+    },
+    {
+      "id": "1681d551-ae7a-4a00-9083-80b98095107b",
+      "text": "2 tentativas bastam",
+      "type": "kaos.DomainProperty",
+      "x": 1156.9721947372027,
+      "y": 371.65033003091736,
+      "customProperties": {}
+    },
+    {
+      "id": "7f94f944-57f8-42f1-b526-e089db58b349",
+      "text": "Terreno e clima\nestáveis",
+      "type": "kaos.DomainProperty",
+      "x": 2885.098019814496,
+      "y": 191.0980198144959,
+      "customProperties": {}
+    },
+    {
+      "id": "5fcf2fa5-d7b0-4733-b9a2-8285e742b3b6",
+      "text": "Retorno à base\nnunca bloqueado",
+      "type": "kaos.DomainProperty",
+      "x": 3052.419884520781,
+      "y": 190.52450495362396,
+      "customProperties": {}
+    },
+    {
+      "id": "738c3293-55c1-46a3-99a0-8f27a5dd2d2a",
+      "text": "Base mantém\nenergia contínua\n",
+      "type": "kaos.DomainProperty",
+      "x": 3507.2728547990373,
+      "y": 191.77615510821073,
+      "customProperties": {}
+    },
+    {
+      "id": "ef517763-9bf5-4d59-82aa-4efe12d56bae",
+      "text": "Degradação\nconstante",
+      "type": "kaos.DomainProperty",
+      "x": 3675.049009907248,
+      "y": 191.82516501545868,
+      "customProperties": {}
+    },
+    {
+      "id": "5342b0cc-a97e-4579-96fc-625c1b9e9a59",
+      "text": "Intervém só de\nforma intencional",
+      "type": "kaos.DomainProperty",
+      "x": 4641,
+      "y": 183,
+      "customProperties": {}
+    },
+    {
+      "id": "84603eaa-e3f1-4f23-ac8f-689737c1b961",
+      "text": "Robô",
+      "type": "kaos.Agent",
+      "x": 158.17483498454132,
+      "y": 423.4966996908264,
+      "customProperties": {}
+    },
+    {
+      "id": "bba722aa-0de6-4a6c-8855-f4f3f1b84742",
+      "text": "Controlador",
+      "type": "kaos.Agent",
+      "x": -110.90198018550413,
+      "y": 613.7483498454131,
+      "customProperties": {}
+    },
+    {
+      "id": "c27c2cdf-399f-4021-9286-c34652c02023",
+      "text": "Drone",
+      "type": "kaos.EnvironmentAgent",
+      "x": 137.5735148608719,
+      "y": 613.524504953624,
+      "customProperties": {}
+    },
+    {
+      "id": "a94b2a08-1a98-426a-bf89-eeae936fe327",
+      "text": "Controlador",
+      "type": "kaos.EnvironmentAgent",
+      "x": 413.0768151700454,
+      "y": 571.098019814496,
+      "customProperties": {}
+    },
+    {
+      "id": "d5b1ff32-2ffe-4203-bc9d-533c9b81b5b1",
+      "text": "Base de recarga",
+      "type": "kaos.EnvironmentAgent",
+      "x": 613.8251650154588,
+      "y": 578.573514860872,
+      "customProperties": {}
+    },
+    {
+      "id": "5ce73ddd-4edb-4cc1-8beb-dc434522a134",
+      "text": "Robô",
+      "type": "kaos.Agent",
+      "x": 1551.2019210405913,
+      "y": 660.4542403979558,
+      "customProperties": {}
+    },
+    {
+      "id": "b0385a1b-dfe5-46d7-8c15-2f0fd63dd6f4",
+      "text": "Robô",
+      "type": "kaos.Agent",
+      "x": 2203.951836503595,
+      "y": 463.68653230696845,
+      "customProperties": {}
+    },
+    {
+      "id": "444bf4ad-1272-418c-bfe2-68ec68dd2ce5",
+      "text": "Base de recarga",
+      "type": "kaos.EnvironmentAgent",
+      "x": 3602.4233443031776,
+      "y": 388.3937364962315,
+      "customProperties": {}
+    },
+    {
+      "id": "110e58f9-e74d-45ed-aec1-66e4b2524474",
+      "text": "Robô",
+      "type": "kaos.Agent",
+      "x": 3495.00047636397,
+      "y": 513.0076081843908,
+      "customProperties": {}
+    },
+    {
+      "id": "8f0e91c1-8e46-484f-a2bb-7d0974e74201",
+      "text": "Robô",
+      "type": "kaos.Agent",
+      "x": 4484.902813915187,
+      "y": 414.97016639217,
+      "customProperties": {}
+    }
+  ],
+  "dependencies": [],
+  "links": [
+    {
+      "hub": {
+        "id": "e6e09aaa-bb5b-44a0-880e-a5944cdac418",
+        "type": "kaos.RefinementLinkHub",
+        "x": 2256.5,
+        "y": 52.75000000000008,
+        "customProperties": {
+          "SysRef": "",
+          "Status": "",
+          "Tactic": "",
+          "AND": ""
+        }
+      },
+      "starts": [
+        {
+          "id": "2772731a-bdb5-4e2a-a527-3746f7e21670",
+          "type": "kaos.RefinementLinkStart",
+          "source": "a3a279a8-3d7e-423a-9bfb-6fe48e44f80b",
+          "target": "e6e09aaa-bb5b-44a0-880e-a5944cdac418"
+        },
+        {
+          "id": "105c86b5-cc5b-4e20-a1bc-233139938f1d",
+          "type": "kaos.RefinementLinkStart",
+          "source": "37ed8dbe-5125-4078-8bb7-1387faf07042",
+          "target": "e6e09aaa-bb5b-44a0-880e-a5944cdac418"
+        },
+        {
+          "id": "ecc3b679-af79-4d36-a864-2234921ef39a",
+          "type": "kaos.RefinementLinkStart",
+          "source": "9c11b481-1e53-44b5-87c1-6606691bab38",
+          "target": "e6e09aaa-bb5b-44a0-880e-a5944cdac418"
+        },
+        {
+          "id": "800c0ffa-623d-4155-891c-43bec9500c4d",
+          "type": "kaos.RefinementLinkStart",
+          "source": "1174620b-b2f0-4b6b-bea8-f33993e16f4c",
+          "target": "e6e09aaa-bb5b-44a0-880e-a5944cdac418"
+        },
+        {
+          "id": "9b316fb6-fcfb-4780-9723-6f647f3601f0",
+          "type": "kaos.RefinementLinkStart",
+          "source": "cfd4ec3e-e089-4a38-b9d4-806e5c14163b",
+          "target": "e6e09aaa-bb5b-44a0-880e-a5944cdac418"
+        },
+        {
+          "id": "1e521719-2afc-442e-a9ab-640090e7438e",
+          "type": "kaos.RefinementLinkStart",
+          "source": "2014248f-3969-4468-8d7c-c56420e2efea",
+          "target": "e6e09aaa-bb5b-44a0-880e-a5944cdac418"
+        }
+      ],
+      "end": {
+        "id": "f4107a02-08c4-499e-bf70-8552a0a7ad4e",
+        "type": "kaos.RefinementLinkEnd",
+        "source": "e6e09aaa-bb5b-44a0-880e-a5944cdac418",
+        "target": "d1e09131-6cde-494d-a87b-b41afd57a1a3"
+      }
+    },
+    {
+      "hub": {
+        "id": "5821a339-ab31-48a2-9b03-5bb0cca523d8",
+        "type": "kaos.RefinementLinkHub",
+        "x": 150.28989472799088,
+        "y": 235.1513180522235,
+        "customProperties": {
+          "SysRef": "",
+          "Status": "",
+          "Tactic": ""
+        }
+      },
+      "starts": [
+        {
+          "id": "8a2d5acf-c9da-4425-aa3a-d8730455587d",
+          "type": "kaos.RefinementLinkStart",
+          "source": "446cba28-d685-4c17-81a6-9f894bc3aa98",
+          "target": "5821a339-ab31-48a2-9b03-5bb0cca523d8"
+        },
+        {
+          "id": "f24984cc-5e83-48f7-ab62-9455c847c09d",
+          "type": "kaos.RefinementLinkStart",
+          "source": "7dd14bd5-e419-41f5-80ea-e732eb712bf3",
+          "target": "5821a339-ab31-48a2-9b03-5bb0cca523d8"
+        },
+        {
+          "id": "f3967550-3e52-43a1-bf03-be699fba39cf",
+          "type": "kaos.RefinementLinkStart",
+          "source": "85f8a04e-a631-49c6-ade7-b8fe06b700b0",
+          "target": "5821a339-ab31-48a2-9b03-5bb0cca523d8"
+        },
+        {
+          "id": "9862789d-e8e1-4906-8f67-48895e63ce75",
+          "type": "kaos.RefinementLinkStart",
+          "source": "5f444fe4-1749-4aad-8728-7d29efc30165",
+          "target": "5821a339-ab31-48a2-9b03-5bb0cca523d8"
+        },
+        {
+          "id": "38574b1c-a360-4b62-80b2-cb4a7dda7d49",
+          "type": "kaos.RefinementLinkStart",
+          "source": "21b15db3-6e9a-4df4-87d2-9477edfc8df4",
+          "target": "5821a339-ab31-48a2-9b03-5bb0cca523d8"
+        },
+        {
+          "id": "efb3f009-76ef-45ee-94fc-9a79c468fabe",
+          "type": "kaos.RefinementLinkStart",
+          "source": "de6018fe-3f22-4600-bbb3-e1bfd7427152",
+          "target": "5821a339-ab31-48a2-9b03-5bb0cca523d8"
+        },
+        {
+          "id": "0d2ca0c5-13b7-40c7-811d-d28529b27b99",
+          "type": "kaos.RefinementLinkStart",
+          "source": "494efde2-6561-4b24-aacd-cc2a9376288a",
+          "target": "5821a339-ab31-48a2-9b03-5bb0cca523d8"
+        }
+      ],
+      "end": {
+        "id": "444b4408-e2aa-4b07-999a-08f2a7b6fddb",
+        "type": "kaos.RefinementLinkEnd",
+        "source": "5821a339-ab31-48a2-9b03-5bb0cca523d8",
+        "target": "9c11b481-1e53-44b5-87c1-6606691bab38"
+      }
+    },
+    {
+      "hub": {
+        "id": "0a620882-0ace-44e0-9823-0ca9e58e4d41",
+        "type": "kaos.RefinementLinkHub",
+        "x": -44.95699138970703,
+        "y": 423.52557167571746,
+        "customProperties": {
+          "SysRef": "",
+          "Status": "",
+          "Tactic": ""
+        }
+      },
+      "starts": [
+        {
+          "id": "ebb7e358-c630-4821-82a9-7c2ffb53cf5f",
+          "type": "kaos.RefinementLinkStart",
+          "source": "903d9834-3378-4238-8f29-c0fb53fc4f18",
+          "target": "0a620882-0ace-44e0-9823-0ca9e58e4d41"
+        },
+        {
+          "id": "2b10a79a-cfbd-461d-8971-c2cc95431f18",
+          "type": "kaos.RefinementLinkStart",
+          "source": "874048b1-f488-4e18-9bab-21fad19498b3",
+          "target": "0a620882-0ace-44e0-9823-0ca9e58e4d41"
+        },
+        {
+          "id": "84b2367e-b83f-4a26-9153-392eb2948a31",
+          "type": "kaos.RefinementLinkStart",
+          "source": "ce48cd8a-4a0d-491b-89fe-df8cbcc5f9ff",
+          "target": "0a620882-0ace-44e0-9823-0ca9e58e4d41"
+        }
+      ],
+      "end": {
+        "id": "d11dadc7-2a90-48fb-9e6e-f28f07c2027a",
+        "type": "kaos.RefinementLinkEnd",
+        "source": "0a620882-0ace-44e0-9823-0ca9e58e4d41",
+        "target": "7dd14bd5-e419-41f5-80ea-e732eb712bf3"
+      }
+    },
+    {
+      "hub": {
+        "id": "d0f7ddee-0ca2-48c7-ac4c-6550f33d7859",
+        "type": "kaos.RefinementLinkHub",
+        "x": 577.1088890456051,
+        "y": 392.9530693579578,
+        "customProperties": {
+          "SysRef": "",
+          "Status": "",
+          "Tactic": "",
+          "OUR": ""
+        }
+      },
+      "starts": [
+        {
+          "id": "131c571c-fced-4bd0-827d-7eca3de423f6",
+          "type": "kaos.RefinementLinkStart",
+          "source": "9169281a-d700-45dc-98bb-1032aed02b83",
+          "target": "d0f7ddee-0ca2-48c7-ac4c-6550f33d7859"
+        },
+        {
+          "id": "03ec7130-e7b0-4a87-8c80-90ff74ddedbf",
+          "type": "kaos.RefinementLinkStart",
+          "source": "605f5c9b-3771-435c-8c2b-1fa9d290c464",
+          "target": "d0f7ddee-0ca2-48c7-ac4c-6550f33d7859"
+        }
+      ],
+      "end": {
+        "id": "41971c7f-17b5-4970-a804-7bc1267ba33e",
+        "type": "kaos.RefinementLinkEnd",
+        "source": "d0f7ddee-0ca2-48c7-ac4c-6550f33d7859",
+        "target": "21b15db3-6e9a-4df4-87d2-9477edfc8df4"
+      }
+    },
+    {
+      "hub": {
+        "id": "06f5bc2d-e7dd-4916-bb65-a11b84672a66",
+        "type": "kaos.RefinementLinkHub",
+        "x": 1292.0227763051696,
+        "y": 241.64797682297933,
+        "customProperties": {
+          "SysRef": "",
+          "Status": "",
+          "Tactic": ""
+        }
+      },
+      "starts": [
+        {
+          "id": "0ec79d12-95cf-4fbd-bf02-99e845d14a02",
+          "type": "kaos.RefinementLinkStart",
+          "source": "9ad7855d-b635-4cac-8509-8bc46391db9c",
+          "target": "06f5bc2d-e7dd-4916-bb65-a11b84672a66"
+        },
+        {
+          "id": "d57a57e5-eca5-4444-b39e-0197d0e39729",
+          "type": "kaos.RefinementLinkStart",
+          "source": "7436d458-567c-4d6d-a5ca-4f8cf6d207ae",
+          "target": "06f5bc2d-e7dd-4916-bb65-a11b84672a66"
+        },
+        {
+          "id": "104f1401-56b4-41c0-900b-775e12e51f8b",
+          "type": "kaos.RefinementLinkStart",
+          "source": "c6757ca7-2958-4705-8638-ff22ebf7ee1d",
+          "target": "06f5bc2d-e7dd-4916-bb65-a11b84672a66"
+        },
+        {
+          "id": "2f14c760-de20-49ec-9864-71642144ee5e",
+          "type": "kaos.RefinementLinkStart",
+          "source": "04987747-ce35-4c8d-9b50-33a5988d19a0",
+          "target": "06f5bc2d-e7dd-4916-bb65-a11b84672a66"
+        },
+        {
+          "id": "63b4cd6a-b5d5-46af-9842-b16a0153dc6c",
+          "type": "kaos.RefinementLinkStart",
+          "source": "851b92a0-68c5-4445-bbcd-12934e4ca642",
+          "target": "06f5bc2d-e7dd-4916-bb65-a11b84672a66"
+        },
+        {
+          "id": "78200eff-444a-4c94-b0e1-f76dcaa8bb59",
+          "type": "kaos.RefinementLinkStart",
+          "source": "6440dbdf-0b10-4e01-8793-8f67f16477ca",
+          "target": "06f5bc2d-e7dd-4916-bb65-a11b84672a66"
+        }
+      ],
+      "end": {
+        "id": "995ec205-ee3c-4d80-a574-33cb586ac88b",
+        "type": "kaos.RefinementLinkEnd",
+        "source": "06f5bc2d-e7dd-4916-bb65-a11b84672a66",
+        "target": "1174620b-b2f0-4b6b-bea8-f33993e16f4c"
+      }
+    },
+    {
+      "hub": {
+        "id": "872bc815-294a-4232-9484-3c00d1228f60",
+        "type": "kaos.RefinementLinkHub",
+        "x": 992.1234472764061,
+        "y": 391.84098075340876,
+        "customProperties": {
+          "SysRef": "",
+          "Status": "",
+          "Tactic": ""
+        }
+      },
+      "starts": [
+        {
+          "id": "a7a9eb99-4ef4-4cbb-993b-73e479488d22",
+          "type": "kaos.RefinementLinkStart",
+          "source": "6543b4c0-8627-43a9-b4df-f941a17ac095",
+          "target": "872bc815-294a-4232-9484-3c00d1228f60"
+        },
+        {
+          "id": "904a6693-a58c-4c2e-b1e2-770b9d4efb53",
+          "type": "kaos.RefinementLinkStart",
+          "source": "a49aa46e-37ce-47bf-80ab-dee55770a328",
+          "target": "872bc815-294a-4232-9484-3c00d1228f60"
+        },
+        {
+          "id": "5ee34ac2-6576-475e-8150-976a23043a8d",
+          "type": "kaos.RefinementLinkStart",
+          "source": "7fe74d82-27bf-4e75-8e23-a15829f2981f",
+          "target": "872bc815-294a-4232-9484-3c00d1228f60"
+        },
+        {
+          "id": "a87d9df1-e719-4ab8-8be2-b55c4fdc601d",
+          "type": "kaos.RefinementLinkStart",
+          "source": "bacdaf60-e48e-4373-bfeb-cfa6a7bb4d44",
+          "target": "872bc815-294a-4232-9484-3c00d1228f60"
+        }
+      ],
+      "end": {
+        "id": "9d1d43ac-7d95-4182-bb36-26dd9c0e7761",
+        "type": "kaos.RefinementLinkEnd",
+        "source": "872bc815-294a-4232-9484-3c00d1228f60",
+        "target": "c6757ca7-2958-4705-8638-ff22ebf7ee1d"
+      }
+    },
+    {
+      "hub": {
+        "id": "553a27cc-ff6d-47eb-aad5-2027636a7014",
+        "type": "kaos.RefinementLinkHub",
+        "x": 1409.8071640533874,
+        "y": 395.25832050691207,
+        "customProperties": {
+          "SysRef": "",
+          "Status": "",
+          "Tactic": ""
+        }
+      },
+      "starts": [
+        {
+          "id": "9f2e72ef-d321-47be-a13a-3223c87da581",
+          "type": "kaos.RefinementLinkStart",
+          "source": "30482caf-4c0f-4f0d-9ae1-6adad864953a",
+          "target": "553a27cc-ff6d-47eb-aad5-2027636a7014"
+        },
+        {
+          "id": "70f647bc-084a-444a-894d-25f97952b665",
+          "type": "kaos.RefinementLinkStart",
+          "source": "9f107a24-4193-48b8-80a4-08e38f85e1ee",
+          "target": "553a27cc-ff6d-47eb-aad5-2027636a7014"
+        },
+        {
+          "id": "bb5d2e72-846e-49e8-84d8-74e77b7a8b09",
+          "type": "kaos.RefinementLinkStart",
+          "source": "32000cef-00c9-4fc7-9a21-a0c159f5961e",
+          "target": "553a27cc-ff6d-47eb-aad5-2027636a7014"
+        },
+        {
+          "id": "4cff1f61-467c-4cda-8da2-5f6f2c5e8ecc",
+          "type": "kaos.RefinementLinkStart",
+          "source": "c972b0a7-f67a-46b3-a811-96162144a961",
+          "target": "553a27cc-ff6d-47eb-aad5-2027636a7014"
+        },
+        {
+          "id": "456be625-7080-40c8-8324-5a28db124341",
+          "type": "kaos.RefinementLinkStart",
+          "source": "1681d551-ae7a-4a00-9083-80b98095107b",
+          "target": "553a27cc-ff6d-47eb-aad5-2027636a7014"
+        }
+      ],
+      "end": {
+        "id": "148ab9ff-c1e9-4bfe-8dad-7ef0f2f181d8",
+        "type": "kaos.RefinementLinkEnd",
+        "source": "553a27cc-ff6d-47eb-aad5-2027636a7014",
+        "target": "7436d458-567c-4d6d-a5ca-4f8cf6d207ae"
+      }
+    },
+    {
+      "hub": {
+        "id": "530b3909-9e60-40b9-8d18-67fb1213021d",
+        "type": "kaos.RefinementLinkHub",
+        "x": 2274.3576085182167,
+        "y": 241.39203997158202,
+        "customProperties": {
+          "SysRef": "",
+          "Status": "",
+          "Tactic": ""
+        }
+      },
+      "starts": [
+        {
+          "id": "01d88edc-7e52-4162-8400-d2a494c81ddb",
+          "type": "kaos.RefinementLinkStart",
+          "source": "b9368594-d6b5-4ced-baf7-bfe3451a13e1",
+          "target": "530b3909-9e60-40b9-8d18-67fb1213021d"
+        },
+        {
+          "id": "b99e9aaf-6610-4c49-9676-612658162331",
+          "type": "kaos.RefinementLinkStart",
+          "source": "ad26e4f1-04dc-4d8b-9a14-524efff18050",
+          "target": "530b3909-9e60-40b9-8d18-67fb1213021d"
+        },
+        {
+          "id": "6ce01932-6691-4a3e-8801-ad3af6b3a6c7",
+          "type": "kaos.RefinementLinkStart",
+          "source": "3b3b8835-06cc-4903-8f60-5183a16f25aa",
+          "target": "530b3909-9e60-40b9-8d18-67fb1213021d"
+        },
+        {
+          "id": "9e785c2f-eea6-4df2-8a1d-10876b7984ff",
+          "type": "kaos.RefinementLinkStart",
+          "source": "c9298d6d-aa7c-450f-ba10-fd885da9af17",
+          "target": "530b3909-9e60-40b9-8d18-67fb1213021d"
+        }
+      ],
+      "end": {
+        "id": "1071e4f0-29e1-4611-8b79-d496d1e683a7",
+        "type": "kaos.RefinementLinkEnd",
+        "source": "530b3909-9e60-40b9-8d18-67fb1213021d",
+        "target": "37ed8dbe-5125-4078-8bb7-1387faf07042"
+      }
+    },
+    {
+      "hub": {
+        "id": "a47de6bb-fb73-424c-a12e-d9290b63a366",
+        "type": "kaos.RefinementLinkHub",
+        "x": 3385.2805320967773,
+        "y": 250.67976422894503,
+        "customProperties": {
+          "SysRef": "",
+          "Status": "",
+          "Tactic": ""
+        }
+      },
+      "starts": [
+        {
+          "id": "ad08f45e-56f8-446a-93c9-d9354465118c",
+          "type": "kaos.RefinementLinkStart",
+          "source": "74e24f72-556e-4942-968b-a90b0154272c",
+          "target": "a47de6bb-fb73-424c-a12e-d9290b63a366"
+        },
+        {
+          "id": "b1bb55bb-1164-42de-8c77-fb1d73fa50ab",
+          "type": "kaos.RefinementLinkStart",
+          "source": "3bd4a226-c33d-4324-a166-93b0e5558646",
+          "target": "a47de6bb-fb73-424c-a12e-d9290b63a366"
+        },
+        {
+          "id": "eb035f60-c7d8-4a0b-a0c7-5128dc3cc6ad",
+          "type": "kaos.RefinementLinkStart",
+          "source": "896913d7-b5e2-4f13-b418-2a200807a456",
+          "target": "a47de6bb-fb73-424c-a12e-d9290b63a366"
+        },
+        {
+          "id": "c681c07b-354b-4b04-b148-2278286a00d5",
+          "type": "kaos.RefinementLinkStart",
+          "source": "00261788-a8d3-4222-8fb2-c8b840a848a3",
+          "target": "a47de6bb-fb73-424c-a12e-d9290b63a366"
+        },
+        {
+          "id": "6797cced-d36a-45f0-a706-bf4a2b6b0258",
+          "type": "kaos.RefinementLinkStart",
+          "source": "d094e768-5df3-4619-bb25-f8b9d6597db5",
+          "target": "a47de6bb-fb73-424c-a12e-d9290b63a366"
+        },
+        {
+          "id": "e0f52c5d-68ec-43dd-b2ea-c236109fe10b",
+          "type": "kaos.RefinementLinkStart",
+          "source": "027a3abc-9c1a-4e50-b48b-fc1521039c2f",
+          "target": "a47de6bb-fb73-424c-a12e-d9290b63a366"
+        },
+        {
+          "id": "db460c2e-9cd1-483f-b4eb-ab66f7bf2884",
+          "type": "kaos.RefinementLinkStart",
+          "source": "e2ba0f5a-9825-4e57-8465-ddef4023875b",
+          "target": "a47de6bb-fb73-424c-a12e-d9290b63a366"
+        },
+        {
+          "id": "ba127ae1-7659-4770-9c6f-a4b8e597ca5e",
+          "type": "kaos.RefinementLinkStart",
+          "source": "f960b84a-7b2c-4edc-bb18-ba2966c0c6eb",
+          "target": "a47de6bb-fb73-424c-a12e-d9290b63a366"
+        },
+        {
+          "id": "b40e28fa-d368-49ae-81d5-15d13d5547fb",
+          "type": "kaos.RefinementLinkStart",
+          "source": "48005563-d490-44f6-b712-914c7f253551",
+          "target": "a47de6bb-fb73-424c-a12e-d9290b63a366"
+        },
+        {
+          "id": "83d7356d-4e16-4ad1-8645-74727ce314ca",
+          "type": "kaos.RefinementLinkStart",
+          "source": "7f94f944-57f8-42f1-b526-e089db58b349",
+          "target": "a47de6bb-fb73-424c-a12e-d9290b63a366"
+        },
+        {
+          "id": "d438e93b-16ba-47e2-a754-734b9f7958cf",
+          "type": "kaos.RefinementLinkStart",
+          "source": "5fcf2fa5-d7b0-4733-b9a2-8285e742b3b6",
+          "target": "a47de6bb-fb73-424c-a12e-d9290b63a366"
+        },
+        {
+          "id": "93949fac-eee0-4672-bafb-36b8e23ce399",
+          "type": "kaos.RefinementLinkStart",
+          "source": "738c3293-55c1-46a3-99a0-8f27a5dd2d2a",
+          "target": "a47de6bb-fb73-424c-a12e-d9290b63a366"
+        },
+        {
+          "id": "fc98caa9-00d3-4d87-990f-8f14045abe99",
+          "type": "kaos.RefinementLinkStart",
+          "source": "ef517763-9bf5-4d59-82aa-4efe12d56bae",
+          "target": "a47de6bb-fb73-424c-a12e-d9290b63a366"
+        }
+      ],
+      "end": {
+        "id": "c24dc497-99e3-4840-b149-4dc5dae89108",
+        "type": "kaos.RefinementLinkEnd",
+        "source": "a47de6bb-fb73-424c-a12e-d9290b63a366",
+        "target": "a3a279a8-3d7e-423a-9bfb-6fe48e44f80b"
+      }
+    },
+    {
+      "hub": {
+        "id": "ace40292-22e2-4a84-b00c-18d7965665ae",
+        "type": "kaos.RefinementLinkHub",
+        "x": 4487.36726142283,
+        "y": 252.47567248181213,
+        "customProperties": {
+          "SysRef": "",
+          "Status": "",
+          "Tactic": ""
+        }
+      },
+      "starts": [
+        {
+          "id": "ef6daac8-89ad-4468-9626-f73873b8f8df",
+          "type": "kaos.RefinementLinkStart",
+          "source": "8e464004-0a3c-4614-9a5d-0c3708271912",
+          "target": "ace40292-22e2-4a84-b00c-18d7965665ae"
+        },
+        {
+          "id": "dcec76b9-bea8-4c1a-b7e9-540e55b9d627",
+          "type": "kaos.RefinementLinkStart",
+          "source": "ab48b5c0-1dc5-41d3-8778-c29ee61a333e",
+          "target": "ace40292-22e2-4a84-b00c-18d7965665ae"
+        },
+        {
+          "id": "9ddac34a-a383-4b8f-a00b-0b1ad1ff2442",
+          "type": "kaos.RefinementLinkStart",
+          "source": "e88bd9ae-b698-49c6-9c17-d273d63697d0",
+          "target": "ace40292-22e2-4a84-b00c-18d7965665ae"
+        },
+        {
+          "id": "21a4a540-9779-47d8-801b-35497f552620",
+          "type": "kaos.RefinementLinkStart",
+          "source": "5342b0cc-a97e-4579-96fc-625c1b9e9a59",
+          "target": "ace40292-22e2-4a84-b00c-18d7965665ae"
+        }
+      ],
+      "end": {
+        "id": "01907efd-1985-4507-979b-172914ea92bc",
+        "type": "kaos.RefinementLinkEnd",
+        "source": "ace40292-22e2-4a84-b00c-18d7965665ae",
+        "target": "cfd4ec3e-e089-4a38-b9d4-806e5c14163b"
+      }
+    },
+    {
+      "id": "efaaf907-ea73-4b2a-ba9e-3f3c2ee4c142",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "84603eaa-e3f1-4f23-ac8f-689737c1b961",
+      "target": "446cba28-d685-4c17-81a6-9f894bc3aa98"
+    },
+    {
+      "id": "1368b5d3-cbaf-4d28-a23c-8dd91ab7deaa",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "84603eaa-e3f1-4f23-ac8f-689737c1b961",
+      "target": "85f8a04e-a631-49c6-ade7-b8fe06b700b0"
+    },
+    {
+      "id": "4382fb30-72bd-492e-b0d8-09347395fda0",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "bba722aa-0de6-4a6c-8855-f4f3f1b84742",
+      "target": "903d9834-3378-4238-8f29-c0fb53fc4f18"
+    },
+    {
+      "id": "9228d1bd-b771-4b2a-b723-aa5938bb41e1",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "bba722aa-0de6-4a6c-8855-f4f3f1b84742",
+      "target": "874048b1-f488-4e18-9bab-21fad19498b3"
+    },
+    {
+      "id": "6e8a4018-1b8a-46f2-a8a6-9334fa009f80",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "c27c2cdf-399f-4021-9286-c34652c02023",
+      "target": "ce48cd8a-4a0d-491b-89fe-df8cbcc5f9ff"
+    },
+    {
+      "id": "d29e520a-3133-4efb-bff2-24a4f5e13936",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "a94b2a08-1a98-426a-bf89-eeae936fe327",
+      "target": "605f5c9b-3771-435c-8c2b-1fa9d290c464"
+    },
+    {
+      "id": "f39fa102-de80-481c-b83a-ae095711665c",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "d5b1ff32-2ffe-4203-bc9d-533c9b81b5b1",
+      "target": "9169281a-d700-45dc-98bb-1032aed02b83"
+    },
+    {
+      "id": "16d39f6a-aec3-4a1a-8ca7-2a98d8a21f80",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "5ce73ddd-4edb-4cc1-8beb-dc434522a134",
+      "target": "7fe74d82-27bf-4e75-8e23-a15829f2981f"
+    },
+    {
+      "id": "ae6be16b-fa2b-4915-86bc-cb9194999929",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "5ce73ddd-4edb-4cc1-8beb-dc434522a134",
+      "target": "a49aa46e-37ce-47bf-80ab-dee55770a328"
+    },
+    {
+      "id": "9e6f3703-c0be-47a4-be2e-3db5482e632e",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "5ce73ddd-4edb-4cc1-8beb-dc434522a134",
+      "target": "6543b4c0-8627-43a9-b4df-f941a17ac095"
+    },
+    {
+      "id": "bd559715-9733-4ed0-914b-187738d7c1b4",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "5ce73ddd-4edb-4cc1-8beb-dc434522a134",
+      "target": "30482caf-4c0f-4f0d-9ae1-6adad864953a"
+    },
+    {
+      "id": "74bed9b1-5943-456f-82ba-f319345422c5",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "5ce73ddd-4edb-4cc1-8beb-dc434522a134",
+      "target": "9f107a24-4193-48b8-80a4-08e38f85e1ee"
+    },
+    {
+      "id": "0ab0b7cd-18aa-435f-a537-69a838d6e5d4",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "5ce73ddd-4edb-4cc1-8beb-dc434522a134",
+      "target": "32000cef-00c9-4fc7-9a21-a0c159f5961e"
+    },
+    {
+      "id": "dcf17608-742d-4c04-8170-5e93b91387a7",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "5ce73ddd-4edb-4cc1-8beb-dc434522a134",
+      "target": "851b92a0-68c5-4445-bbcd-12934e4ca642"
+    },
+    {
+      "id": "364e5af1-a800-4221-9910-3dc69bfd69df",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "5ce73ddd-4edb-4cc1-8beb-dc434522a134",
+      "target": "04987747-ce35-4c8d-9b50-33a5988d19a0"
+    },
+    {
+      "id": "2979e091-7e27-4132-9720-d868f6e346f1",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "5ce73ddd-4edb-4cc1-8beb-dc434522a134",
+      "target": "9ad7855d-b635-4cac-8509-8bc46391db9c"
+    },
+    {
+      "id": "1efefb0e-d721-408d-bb03-cce74105010b",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "b0385a1b-dfe5-46d7-8c15-2f0fd63dd6f4",
+      "target": "b9368594-d6b5-4ced-baf7-bfe3451a13e1"
+    },
+    {
+      "id": "41049b1f-9edf-4ded-ae79-046b8f425709",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "b0385a1b-dfe5-46d7-8c15-2f0fd63dd6f4",
+      "target": "ad26e4f1-04dc-4d8b-9a14-524efff18050"
+    },
+    {
+      "id": "de708c8f-9b0d-47ef-96ce-5f250a826868",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "b0385a1b-dfe5-46d7-8c15-2f0fd63dd6f4",
+      "target": "3b3b8835-06cc-4903-8f60-5183a16f25aa"
+    },
+    {
+      "id": "9eddd75b-8409-4623-be89-5648e9886509",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "b0385a1b-dfe5-46d7-8c15-2f0fd63dd6f4",
+      "target": "c9298d6d-aa7c-450f-ba10-fd885da9af17"
+    },
+    {
+      "id": "bf6b1811-7084-4143-bdb1-d4adbe5585e6",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "444bf4ad-1272-418c-bfe2-68ec68dd2ce5",
+      "target": "027a3abc-9c1a-4e50-b48b-fc1521039c2f"
+    },
+    {
+      "id": "b5db9003-7cad-4259-9bc2-510b00399fd0",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "110e58f9-e74d-45ed-aec1-66e4b2524474",
+      "target": "74e24f72-556e-4942-968b-a90b0154272c"
+    },
+    {
+      "id": "1c411565-19b3-432d-b0b9-e37cf49d32d1",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "110e58f9-e74d-45ed-aec1-66e4b2524474",
+      "target": "3bd4a226-c33d-4324-a166-93b0e5558646"
+    },
+    {
+      "id": "e8345ad4-d374-46e2-af86-38cb56b1f045",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "110e58f9-e74d-45ed-aec1-66e4b2524474",
+      "target": "896913d7-b5e2-4f13-b418-2a200807a456"
+    },
+    {
+      "id": "b7913b88-45af-4fc1-b5a3-90452fbf4cf4",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "110e58f9-e74d-45ed-aec1-66e4b2524474",
+      "target": "00261788-a8d3-4222-8fb2-c8b840a848a3"
+    },
+    {
+      "id": "a766f18d-5d68-4d6b-8bdd-d5591295c75e",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "110e58f9-e74d-45ed-aec1-66e4b2524474",
+      "target": "d094e768-5df3-4619-bb25-f8b9d6597db5"
+    },
+    {
+      "id": "2e062b65-aa0a-46c1-ac00-127391883cd8",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "110e58f9-e74d-45ed-aec1-66e4b2524474",
+      "target": "e2ba0f5a-9825-4e57-8465-ddef4023875b"
+    },
+    {
+      "id": "2c7d5ac7-609f-4ae3-8b57-37c0f858cc6c",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "110e58f9-e74d-45ed-aec1-66e4b2524474",
+      "target": "f960b84a-7b2c-4edc-bb18-ba2966c0c6eb"
+    },
+    {
+      "id": "64d53e53-20c6-427f-a9b7-757f8a7398ff",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "110e58f9-e74d-45ed-aec1-66e4b2524474",
+      "target": "48005563-d490-44f6-b712-914c7f253551"
+    },
+    {
+      "id": "a6e57ca7-22f6-422f-bec4-a9655b12ec9a",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "8f0e91c1-8e46-484f-a2bb-7d0974e74201",
+      "target": "8e464004-0a3c-4614-9a5d-0c3708271912"
+    },
+    {
+      "id": "ca783aff-50f8-4773-af5f-6b01def11266",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "8f0e91c1-8e46-484f-a2bb-7d0974e74201",
+      "target": "ab48b5c0-1dc5-41d3-8778-c29ee61a333e"
+    },
+    {
+      "id": "b82614e3-f13b-48ea-83f6-aebadbe56be7",
+      "type": "kaos.ResponsibilityAssignment",
+      "source": "8f0e91c1-8e46-484f-a2bb-7d0974e74201",
+      "target": "e88bd9ae-b698-49c6-9c17-d273d63697d0"
+    }
+  ],
+  "display": {
+    "d1e09131-6cde-494d-a87b-b41afd57a1a3": {
+      "width": 244,
+      "height": 48
+    },
+    "9c11b481-1e53-44b5-87c1-6606691bab38": {
+      "width": 172,
+      "height": 50
+    },
+    "7dd14bd5-e419-41f5-80ea-e732eb712bf3": {
+      "width": 170,
+      "height": 50
+    },
+    "903d9834-3378-4238-8f29-c0fb53fc4f18": {
+      "width": 176,
+      "height": 49
+    },
+    "874048b1-f488-4e18-9bab-21fad19498b3": {
+      "width": 166,
+      "height": 45
+    },
+    "ce48cd8a-4a0d-491b-89fe-df8cbcc5f9ff": {
+      "width": 151,
+      "height": 43
+    },
+    "446cba28-d685-4c17-81a6-9f894bc3aa98": {
+      "width": 169,
+      "height": 44
+    },
+    "85f8a04e-a631-49c6-ade7-b8fe06b700b0": {
+      "width": 167,
+      "height": 42
+    },
+    "5f444fe4-1749-4aad-8728-7d29efc30165": {
+      "width": 171,
+      "height": 46
+    },
+    "21b15db3-6e9a-4df4-87d2-9477edfc8df4": {
+      "width": 162,
+      "height": 45
+    },
+    "9169281a-d700-45dc-98bb-1032aed02b83": {
+      "width": 156,
+      "height": 46
+    },
+    "605f5c9b-3771-435c-8c2b-1fa9d290c464": {
+      "width": 157,
+      "height": 42
+    },
+    "1174620b-b2f0-4b6b-bea8-f33993e16f4c": {
+      "width": 165,
+      "height": 55
+    },
+    "c6757ca7-2958-4705-8638-ff22ebf7ee1d": {
+      "width": 157,
+      "height": 43
+    },
+    "7fe74d82-27bf-4e75-8e23-a15829f2981f": {
+      "width": 151,
+      "height": 39
+    },
+    "a49aa46e-37ce-47bf-80ab-dee55770a328": {
+      "width": 153,
+      "height": 46
+    },
+    "6543b4c0-8627-43a9-b4df-f941a17ac095": {
+      "width": 149,
+      "height": 42
+    },
+    "7436d458-567c-4d6d-a5ca-4f8cf6d207ae": {
+      "width": 156,
+      "height": 41
+    },
+    "30482caf-4c0f-4f0d-9ae1-6adad864953a": {
+      "width": 160,
+      "height": 41
+    },
+    "9f107a24-4193-48b8-80a4-08e38f85e1ee": {
+      "width": 166,
+      "height": 40
+    },
+    "32000cef-00c9-4fc7-9a21-a0c159f5961e": {
+      "width": 149,
+      "height": 40
+    },
+    "9ad7855d-b635-4cac-8509-8bc46391db9c": {
+      "width": 162,
+      "height": 43
+    },
+    "04987747-ce35-4c8d-9b50-33a5988d19a0": {
+      "width": 155,
+      "height": 39
+    },
+    "851b92a0-68c5-4445-bbcd-12934e4ca642": {
+      "width": 167,
+      "height": 41
+    },
+    "37ed8dbe-5125-4078-8bb7-1387faf07042": {
+      "width": 181,
+      "height": 47
+    },
+    "b9368594-d6b5-4ced-baf7-bfe3451a13e1": {
+      "width": 157,
+      "height": 41
+    },
+    "ad26e4f1-04dc-4d8b-9a14-524efff18050": {
+      "width": 168,
+      "height": 40
+    },
+    "3b3b8835-06cc-4903-8f60-5183a16f25aa": {
+      "width": 152,
+      "height": 41
+    },
+    "c9298d6d-aa7c-450f-ba10-fd885da9af17": {
+      "width": 154,
+      "height": 42
+    },
+    "a3a279a8-3d7e-423a-9bfb-6fe48e44f80b": {
+      "width": 162,
+      "height": 41
+    },
+    "74e24f72-556e-4942-968b-a90b0154272c": {
+      "width": 153,
+      "height": 40
+    },
+    "3bd4a226-c33d-4324-a166-93b0e5558646": {
+      "width": 148,
+      "height": 39
+    },
+    "896913d7-b5e2-4f13-b418-2a200807a456": {
+      "width": 156,
+      "height": 41
+    },
+    "00261788-a8d3-4222-8fb2-c8b840a848a3": {
+      "width": 164,
+      "height": 41
+    },
+    "d094e768-5df3-4619-bb25-f8b9d6597db5": {
+      "width": 150,
+      "height": 43
+    },
+    "027a3abc-9c1a-4e50-b48b-fc1521039c2f": {
+      "width": 161,
+      "height": 41
+    },
+    "e2ba0f5a-9825-4e57-8465-ddef4023875b": {
+      "width": 157,
+      "height": 41
+    },
+    "f960b84a-7b2c-4edc-bb18-ba2966c0c6eb": {
+      "width": 154,
+      "height": 41
+    },
+    "48005563-d490-44f6-b712-914c7f253551": {
+      "width": 154,
+      "height": 40
+    },
+    "cfd4ec3e-e089-4a38-b9d4-806e5c14163b": {
+      "width": 181,
+      "height": 50
+    },
+    "8e464004-0a3c-4614-9a5d-0c3708271912": {
+      "width": 150,
+      "height": 41
+    },
+    "ab48b5c0-1dc5-41d3-8778-c29ee61a333e": {
+      "width": 153,
+      "height": 44
+    },
+    "e88bd9ae-b698-49c6-9c17-d273d63697d0": {
+      "width": 146,
+      "height": 41
+    },
+    "2014248f-3969-4468-8d7c-c56420e2efea": {
+      "width": 166,
+      "height": 49
+    },
+    "6440dbdf-0b10-4e01-8793-8f67f16477ca": {
+      "width": 149,
+      "height": 45
+    },
+    "c972b0a7-f67a-46b3-a811-96162144a961": {
+      "width": 140,
+      "height": 39
+    },
+    "84603eaa-e3f1-4f23-ac8f-689737c1b961": {
+      "width": 144
+    },
+    "bba722aa-0de6-4a6c-8855-f4f3f1b84742": {
+      "width": 144,
+      "height": 39
+    },
+    "c27c2cdf-399f-4021-9286-c34652c02023": {
+      "width": 143
+    },
+    "a94b2a08-1a98-426a-bf89-eeae936fe327": {
+      "width": 157,
+      "height": 46
+    },
+    "d5b1ff32-2ffe-4203-bc9d-533c9b81b5b1": {
+      "width": 157,
+      "height": 41
+    },
+    "5ce73ddd-4edb-4cc1-8beb-dc434522a134": {
+      "width": 434,
+      "height": 45
+    },
+    "b0385a1b-dfe5-46d7-8c15-2f0fd63dd6f4": {
+      "width": 160,
+      "height": 46
+    },
+    "444bf4ad-1272-418c-bfe2-68ec68dd2ce5": {
+      "width": 170,
+      "height": 43
+    },
+    "110e58f9-e74d-45ed-aec1-66e4b2524474": {
+      "width": 266,
+      "height": 60
+    }
+  },
+  "tool": "dsm3-goals",
+  "metamodelVersion": "1.0",
+  "saveDate": "Mon, 29 Apr 2019 05:14:41 GMT",
+  "diagram": {
+    "width": 2000,
+    "height": 1300,
+    "name": "Example KAOS goal model",
+    "customProperties": {
+      "Description": "The tool for KAOS goal models has two noteworthy features: \n - Creation of links with multiple sources (e.g., the AND-refinement of Reliability;\n - Pre-defined properties in goals, refinement links (in the circle) and conflict links",
+      "engine": "kaos",
+      "framework": "kaos"
+    }
+  }
+}
