@@ -15,3 +15,9 @@ transição do modelo manual (*As-Is*) para um ecossistema autônomo e resilient
 ## Estrutura do Repositório 
 ```text
 
+. 
+├── Relatorio_Final_.pdf # Relatório Completo (PDF) 
+├── 01_fase1_Initiation/ # Context Diagram e Stakeholder Onion (draw.io + PDF) 
+├── 02_fase2_Investigation/ # Domain Scenarios (As-Is / To-Be) e Goal Model v1 
+├── 03_fase3_Decision/ # Impact Map e Goal Model v2 
+└── 04_fase4_Formulation/ # Specification by Example (Example Map / BDD) e Goal Model vFinal
